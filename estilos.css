@@ -1,0 +1,120 @@
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 154, 238);
+    border-radius: 8px;
+    border-radius: 25px;
+    box-shadow: rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    width: 250px;
+    padding: 20px;
+    border-left: spx solid transparent;
+    margin: 10px;
+}
+.tarjeta:hover {
+    transform: translateY(-Spx);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.boton {
+    display: inline-block;
+    font-size: 1.075rem;
+    text-decoration: rgba(255, 0, 191, 0.596);
+    border: rgb(255, 0, 191);
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(255, 0, 200);
+
+}
+.borde-verde { border-left-color: rgb(0, 255, 13);}
+.borde-amarrillo {border-left-color: rgb(255, 208, 0);}
+.borde-purpura {border-left-color: rgb(117, 3, 98);}
+.border-naranja { border-left-color: rgb(255, 115, 0);}
+
+.titulo{
+    font-size: 1.8em;
+}
+.t-rosa{color:rgb(255, 0, 170)}
+.t-blanco{color:rgb(255, 255, 255)}
+
+.conenedor { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+.flex { display: flex; }
+.flex.v { margin-top: 1rem; }
+.flex-h { justify-content: center; }
+.flex-ajustar { flex-wrap: wrap; }
+.flex-col { flex-direction: column; }
+
+.m-todos{margin: 1rem}
+.m-sup{margin-top: 1rem}
+.m-der{margin-right: 1rem}
+.m-inf{margin-bottom: 1.5rem}
+.m-izq{margin-left: 1rem}
+
+.rell{padding: 1rem}
+.rell-y{padding-top: 40px;padding-bottom: 40px;}
+
+.centrado { text-align: center; }
+.f-boton { background-color: fuchsia; color:rgb(255, 0, 140); }
+
+.f-correcto {
+    background-color: rgb(44, 190, 24);
+}
+.f-incorrecto {
+    background-color: rgb(255, 0, 0) ;
+}
+
+.f-gris {
+    background-color: rgb(255, 255, 255);
+}
+.oculto {
+    display: none;
+}
+.t-blanco{color: white;}
+.t-negro{color: black;}
+.f-negro {
+    background-color: black;
+}
+
+#pantalla-portada {
+    min-height: calc(100ch - 64px - 64px);
+    width: 100%;
+
+    background: url('img/pregun.jpg') no-repeat center center/cover;
+
+        justify-content: center;
+        align-items: center;
+        text-shadow: 2px 2px 5px rgba (0, 0, 0, 0.7);
+
+}
+
+.titulo-portada {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+    letter-spacing: 5px;
+}
+
+.subtitulo-portada {
+    font-size:1.2rem;
+    margin-bottom: 100px;
+    font-weight: 500;
+}
+.boton-gigante{
+
+    padding: 18px 60px;
+    font-size: 1.8rem;
+    background-color:#FFC107;
+    color:#333;
+    border: 3px solid #ff9800;
+    border-radius: 12px;
+    font-weight: 700;
+    box-shadow: 0 5px #ff9800;
+    transition: all 0.1s;
+}
+
+.boton-gigante:active {
+    box-shadow: 0 1px #ff9800;
+    transform: translateY(4px);}

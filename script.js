@@ -3,65 +3,67 @@ let opciones1 = [];
 let opciones2 = [];
 let opciones3 = [];
 let correctas = [];
-preguntas[0] = "¿Capital de Argentina?";
-opciones1[0] = "Cordoba";
-opciones2[0] = "Mendoza";
-opciones3[0] = "Buenos Aires";
-correctas[0] = 3;
 
-preguntas[1] = "¿Argentino campeón en 2022?";
-opciones1[1] = "Neymar";
-opciones2[1] = "Messi";
-opciones3[1] = "Mbappe";
+preguntas[0] = "¿Quien interpreta a Iron Man en las peliculas de Marvel?";
+opciones1[0] = "Tom Holland";
+opciones2[0] = "La Chabona";
+opciones3[0] = "Robert Downey jr";
+correctas[0] = 3 
+
+preguntas[1] = "¿Que peronaje vive en una piña debajo del mar?";
+opciones1[1] = "Harry Potter";
+opciones2[1] = "Bob Esponja";
+opciones3[1] = "Tinkerbell";
 correctas[1] = 2;
 
-preguntas[2] = "¿Equipo con más Libertadores?";
-opciones1[2] = "Independiente";
-opciones2[2] = "River Plate";
-opciones3[2] = "Boca Juniors";
+preguntas[2] = "¿Quien es la famosa creadora de la frase 'acompañenon'?";
+opciones1[2] = "La coqueta";
+opciones2[2] = "Lali";
+opciones3[2] = "Pampita";
 correctas[2] = 1;
 
-preguntas[3] = "¿Qué selección tiene más Mundiales?";
-opciones1[3] = "Alemania";
-opciones2[3] = "Argentina";
-opciones3[3] = "Brasil";
+preguntas[3] = "¿Cual de estos es un Brainrot?";
+opciones1[3] = "Ballerina Cappucina";
+opciones2[3] = "Tung Tung Sahur";
+opciones3[3] = "Todas son correctas";
 correctas[3] = 3;
 
-preguntas[4] = "¿Dónde se encuentran las Cataratas del Iguazú?";
-opciones1[4] = "Corrientes";
-opciones2[4] = "Misiones";
-opciones3[4] = "Entre Ríos";
+preguntas[4] = "¿Que cantante lanzo la cancion 'despacito' junto a Daddy Yankee?";
+opciones1[4] = "Maluma";
+opciones2[4] = "Luis fonsi";
+opciones3[4] = "Enrique Iglesias";
 correctas[4] = 2;
 
-preguntas[5] = "¿Qué provincia es la más extensa de Argentina?";
-opciones1[5] = "Buenos Aires";
-opciones2[5] = "Santa Cruz";
-opciones3[5] = "Mendoza";
+preguntas[5] = "¿Que programa conduce Santiago del Moro actualmente?";
+opciones1[5] = "Gran Hermano";
+opciones2[5] = "Los 8 escalones";
+opciones3[5] = "Pasapalabra";
 correctas[5] = 1;
 
-preguntas[6] = "¿Qué color no es primario?";
-opciones1[6] = "Rojo";
-opciones2[6] = "Amarillo";
-opciones3[6] = "Violeta";
+preguntas[6] = "¿quien fue el cuerno de la relacion de Icardi y Wanda Nara?";
+opciones1[6] = "La Coqueta";
+opciones2[6] = "pampita";
+opciones3[6] = "La China Suarez";
 correctas[6] = 3;
 
-preguntas[7] = "El río más largo del mundo es:";
-opciones1[7] = "Nilo";
-opciones2[7] = "Amazonas";
-opciones3[7] = "Yangtse";
+preguntas[7] = "¿Que famoso conductor usa la frase 'Buenas noches, america'?";
+opciones1[7] = "Guido Kaczka";
+opciones2[7] = "Marcelo Tinelli";
+opciones3[7] = "Marley";
 correctas[7] = 2;
 
-preguntas[8] = "¿Quién pintó la Mona Lisa?";
-opciones1[8] = "Picasso";
-opciones2[8] = "Vicent Van Gogh";
-opciones3[8] = "Leonardo Da Vinci";
+preguntas[8] = "¿Donde se realizara el mundial 2026?";
+opciones1[8] = "Argentina";
+opciones2[8] = "Brasil";
+opciones3[8] = "Estados unidos";
 correctas[8] = 3;
 
-preguntas[9] = "¿La montaña más alta del mundo es?";
-opciones1[9] = "Monte Everest";
-opciones2[9] = "El K2";
-opciones3[9] = "Kangchenjunga";
+preguntas[9] = "¿Que futbolista argentino fue pareja de la cantante Tini Stoessel?";
+opciones1[9] = "Rodrigo De Paul";
+opciones2[9] = "Paulo Dybala";
+opciones3[9] = "Lautaro Martinez";
 correctas[9] = 1;
+
 
 let nPregunta = 0;
 function mostrarPregunta(n) {
