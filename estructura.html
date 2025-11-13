@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntados</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header class="flex flex-h flex-v">
+        <div class="contenedor flex flex-h flex-v header-contenedor">
+            <h1 class="titulo header-titulo">
+                <span class="t-rosa">✅ PREGUNTADOS</span> <span class="t-negro">| APP
+                    INFORMÁTICAS </span>
+            </h1>
+        </div>
+    </header>
+    <main class="flex flex-h flex-v ">
+        <div id="pantalla-portada" class="flex flex-col flex-h flex-v">
+            <h1 class="titulo-portada">
+                PREGUNTA2
+            </h1>
+            <p class="subtitulo-portada">Proyecto Aplicaciones Informáticas.</p>
+            <button class="boton m-inf boton-gigante" id="iniciar-preguntados">JUGAR
+                AHORA</button>
+        </div>
+        <div id="preguntados" class="contenedor centrado flex flex-col flex-h flex-v oculto">
+            <div class="tarjeta flex-col rell">
+                <h2 class="t-tamaño silueta m-inf" id="textoPregunta"></h2>
+                <button class="boton f-gris m-inf" id="opciones1" onclick="evaluar(1)"></button>
+                <button class="boton f-gris m-inf" id="opciones2" onclick="evaluar(2)"></button>
+                <button class="boton f-gris m-inf" id="opciones3" onclick="evaluar(3)"></button>
+                <button class="boton m-inf oculto" id="btn-volver">Volver al menú</button>
+            </div>
+        </div>
+    </main>
+    <footer class="flex flex-v flex-h">
+        <div class="contenedor flex flex-v flex-h footer-contenedor">
+            <p>Proyecto de Estudiantes de 4to año Turno Mañana.</p>
+        </div>
+    </footer>
+    <script src="funciones.js"></script>
+</body>
+
+</html>
