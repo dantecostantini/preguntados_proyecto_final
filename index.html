@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.3">
     <title>Preguntados</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
@@ -30,7 +30,12 @@
         </div>
         <div id="preguntados" class="contenedor centrado flex flex-col flex-h flex-v oculto">
             <div class="tarjeta flex-col rell">
-                <h2 class="t-tamaño silueta m-inf" id="textoPregunta"></h2>
+                <div id="icon" >
+                    <img id="imagencita" src="/img/preguntados-pop.png">
+                    <h2 style="color: white;">ENTRETENIMIENTO</h2>
+                </div>
+                
+                <h2 class="boton f-gris m-todosx2" id="textoPregunta"></h2>
                 <button class="boton f-gris m-inf" id="opciones1" onclick="evaluar(1)"></button>
                 <button class="boton f-gris m-inf" id="opciones2" onclick="evaluar(2)"></button>
                 <button class="boton f-gris m-inf" id="opciones3" onclick="evaluar(3)"></button>

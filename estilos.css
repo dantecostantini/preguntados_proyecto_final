@@ -7,15 +7,17 @@
     box-shadow: rgb(0, 0, 0);
     transition: transform 0.3s ease;
     cursor: pointer;
-    width: 250px;
+    width: 20rem;
     padding: 20px;
     border-left: spx solid transparent;
     margin: 10px;
 }
+
 .tarjeta:hover {
     transform: translateY(-Spx);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0);
 }
+
 .boton {
     display: inline-block;
     font-size: 1.075rem;
@@ -30,68 +32,155 @@
 
 
 }
-.borde-verde { border-left-color: rgb(0, 255, 13);}
-.borde-amarrillo {border-left-color: rgb(255, 208, 0);}
-.borde-purpura {border-left-color: rgb(117, 3, 98);}
-.border-naranja { border-left-color: rgb(255, 115, 0);}
 
-.titulo{
+.borde-verde {
+    border-left-color: rgb(0, 255, 13);
+}
+
+.borde-amarrillo {
+    border-left-color: rgb(255, 208, 0);
+}
+
+.borde-purpura {
+    border-left-color: rgb(117, 3, 98);
+}
+
+.border-naranja {
+    border-left-color: rgb(255, 115, 0);
+}
+
+.titulo {
     font-size: 1.8em;
 }
-.t-rosa{color:rgb(255, 0, 170)}
-.t-blanco{color:rgb(255, 255, 255)}
 
-.conenedor { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.t-rosa {
+    color: rgb(255, 0, 170)
+}
 
-.flex { display: flex; }
-.flex.v { margin-top: 1rem; }
-.flex-h { justify-content: center; }
-.flex-ajustar { flex-wrap: wrap; }
-.flex-col { flex-direction: column; }
+.t-blanco {
+    color: rgb(255, 255, 255)
+}
 
-.m-todos{margin: 1rem}
-.m-sup{margin-top: 1rem}
-.m-der{margin-right: 1rem}
-.m-inf{margin-bottom: 1.5rem}
-.m-izq{margin-left: 1rem}
+.conenedor {
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
-.rell{padding: 1rem}
-.rell-y{padding-top: 40px;padding-bottom: 40px;}
+.flex {
+    display: flex;
+}
 
-.centrado { text-align: center; }
-.f-boton { background-color: fuchsia; color:rgb(255, 0, 140); }
+.flex.v {
+    margin-top: 1rem;
+}
+
+.flex-h {
+    justify-content: center;
+}
+
+.flex-ajustar {
+    flex-wrap: wrap;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.m-todos {
+    margin: 1rem
+}
+
+.m-todosx2 {
+    padding-bottom: 3.7rem;
+    padding-top: 3.7rem;
+    font-weight: 900;
+}
+
+.m-sup {
+    margin-top: 1rem
+}
+
+.m-der {
+    margin-right: 1rem
+}
+
+.m-inf {
+    margin-bottom: 1.5rem
+}
+
+.m-izq {
+    margin-left: 1rem
+}
+
+.rell {
+    padding: 1rem
+}
+
+.rell-y {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.f-boton {
+    background-color: fuchsia;
+    color: rgb(255, 0, 140);
+}
 
 .f-correcto {
     background-color: rgb(44, 190, 24);
 }
+
 .f-incorrecto {
-    background-color: rgb(255, 0, 0) ;
+    background-color: rgb(255, 0, 0);
 }
 
 .f-gris {
     background-color: rgb(255, 255, 255);
 }
+
 .oculto {
     display: none;
 }
-.t-blanco{color: white;}
-.t-negro{color: black;}
+
+.t-blanco {
+    color: white;
+}
+
+.t-negro {
+    color: black;
+}
+
 .f-negro {
     background-color: black;
 }
 
 #pantalla-portada {
-    min-height: calc(100ch - 64px - 64px);
-    width: 100%;
+    /* min-height: calc(100ch - 64px - 64px); */
+    width: 85%;
+    height: 83vh;
 
     background: url('img/pregun.jpg') no-repeat center center/cover;
 
-        justify-content: center;
-        align-items: center;
-        text-shadow: 2px 2px 5px rgba (0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgba (0, 0, 0, 0.7);
 
 }
-
+#icon{
+    padding-top: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+#imagencita{
+    height: 2rem;
+  
+}
 .titulo-portada {
     font-size: 4rem;
     font-weight: 800;
@@ -100,16 +189,17 @@
 }
 
 .subtitulo-portada {
-    font-size:1.2rem;
+    font-size: 1.2rem;
     margin-bottom: 100px;
     font-weight: 500;
 }
-.boton-gigante{
+
+.boton-gigante {
 
     padding: 18px 60px;
     font-size: 1.7rem;
-    background-color:#FFC107;
-    color:#333;
+    background-color: #FFC107;
+    color: #333;
     border: 3px solid #ff9800;
     border-radius: 12px;
     font-weight: 700;
@@ -121,4 +211,15 @@
 .boton-gigante:active {
     box-shadow: 0 1px #ff9800;
     transform: translateY(4px);
+}
+
+/* estilos para todo el cuerpo */
+body {
+    /* color fondo */
+    background-color: rgb(236, 61, 128);
+    /* ajustar escala */
+    transform: scale(1.2);
+    /* desactiva lo deslizadores */
+    overflow-x: hidden;
+    overflow-y: hidden;
 }

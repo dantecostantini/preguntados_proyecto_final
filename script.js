@@ -22,7 +22,7 @@ opciones2[2] = "Lali";
 opciones3[2] = "Pampita";
 correctas[2] = 1;
 
-preguntas[3] = "¿Cual de estos es un Brainrot?";
+preguntas[3] = "¿Cual de los siguientes textos es un Brainrot?";
 opciones1[3] = "Ballerina Cappucina";
 opciones2[3] = "Tung Tung Sahur";
 opciones3[3] = "Todas son correctas";
@@ -52,7 +52,7 @@ opciones2[7] = "Marcelo Tinelli";
 opciones3[7] = "Marley";
 correctas[7] = 2;
 
-preguntas[8] = "¿Donde se realizara el mundial 2026?";
+preguntas[8] = "¿Donde se realizara el mundial de futbol 2026?";
 opciones1[8] = "Argentina";
 opciones2[8] = "Brasil";
 opciones3[8] = "Estados unidos";
