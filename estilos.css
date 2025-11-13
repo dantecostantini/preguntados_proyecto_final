@@ -1,7 +1,7 @@
 .tarjeta {
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 154, 238);
+    background-color: rgb(236, 61, 128);
     border-radius: 8px;
     border-radius: 25px;
     box-shadow: rgb(0, 0, 0);
@@ -14,7 +14,7 @@
 }
 .tarjeta:hover {
     transform: translateY(-Spx);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0);
 }
 .boton {
     display: inline-block;
@@ -23,9 +23,11 @@
     border: rgb(255, 0, 191);
     cursor: pointer;
     padding: 0.5rem 1rem;
-    border-radius: 5px;
+    border-radius: 2px;
     font-weight: bold;
     background-color: rgb(255, 0, 200);
+    box-shadow: rgb(10, 10, 0);
+
 
 }
 .borde-verde { border-left-color: rgb(0, 255, 13);}
@@ -82,9 +84,9 @@
     min-height: calc(100ch - 64px - 64px);
     width: 100%;
 
-    background: url('img/chatarra.png') no-repeat center center/cover;
+    background: url('img/pregun.jpg') no-repeat center center/cover;
 
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         text-shadow: 2px 2px 5px rgba (0, 0, 0, 0.7);
 
@@ -105,7 +107,7 @@
 .boton-gigante{
 
     padding: 18px 60px;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     background-color:#FFC107;
     color:#333;
     border: 3px solid #ff9800;
@@ -113,8 +115,10 @@
     font-weight: 700;
     box-shadow: 0 5px #ff9800;
     transition: all 0.1s;
+    margin-top: 250px !important;
 }
 
 .boton-gigante:active {
     box-shadow: 0 1px #ff9800;
-    transform: translateY(4px);}
+    transform: translateY(4px);
+}
