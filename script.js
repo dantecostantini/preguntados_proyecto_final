@@ -28,7 +28,7 @@ opciones2[3] = "Tung Tung Sahur";
 opciones3[3] = "Todas son correctas";
 correctas[3] = 3;
 
-preguntas[4] = "¿Que cantante lanzo la cancion 'despacito' junto a Daddy Yankee?";
+preguntas[4] = '¿Que cantante lanzo la cancion "despacito" junto a Daddy Yankee?';
 opciones1[4] = "Maluma";
 opciones2[4] = "Luis fonsi";
 opciones3[4] = "Enrique Iglesias";

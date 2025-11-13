@@ -82,9 +82,9 @@
     min-height: calc(100ch - 64px - 64px);
     width: 100%;
 
-    background: url('img/pregun.jpg') no-repeat center center/cover;
+    background: url('img/chatarra.png') no-repeat center center/cover;
 
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         text-shadow: 2px 2px 5px rgba (0, 0, 0, 0.7);
 
