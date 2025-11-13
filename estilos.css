@@ -84,7 +84,7 @@
 
     background: url('img/pregun.jpg') no-repeat center center/cover;
 
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         text-shadow: 2px 2px 5px rgba (0, 0, 0, 0.7);
 
