@@ -4,33 +4,33 @@ let opciones2 = [];
 let opciones3 = [];
 let correctas = [];
 
-preguntas[0] = "¿Quien interpreta a Iron Man en las peliculas de Marvel?";
+preguntas[0] = "¿Quien interpreta a Iron Man en las películas de Marvel?";
 opciones1[0] = "Tom Holland";
 opciones2[0] = "La Chabona";
 opciones3[0] = "Robert Downey jr";
 correctas[0] = 3 
 
-preguntas[1] = "¿Que peronaje vive en una piña debajo del mar?";
+preguntas[1] = "¿Que personaje vive en una piña debajo del mar?";
 opciones1[1] = "Harry Potter";
 opciones2[1] = "Bob Esponja";
 opciones3[1] = "Tinkerbell";
 correctas[1] = 2;
 
-preguntas[2] = "¿Quien es la famosa creadora de la frase 'acompañenon'?";
-opciones1[2] = "La coqueta";
+preguntas[2] = "¿Quién es la famosa creadora de la frase 'acompañenon'?";
+opciones1[2] = "La Coqueta";
 opciones2[2] = "Lali";
 opciones3[2] = "Pampita";
 correctas[2] = 1;
 
-preguntas[3] = "¿Cual de los siguientes textos es un Brainrot?";
-opciones1[3] = "Ballerina Cappucina";
+preguntas[3] = "¿Cuál de los siguientes opciones es un Brain rot (Contenido de muy baja calidad que te quema el cerebro";
+opciones1[3] = "Ballerina Capuchina";
 opciones2[3] = "Tung Tung Sahur";
 opciones3[3] = "Todas son correctas";
 correctas[3] = 3;
 
-preguntas[4] = '¿Que cantante lanzo la cancion "despacito" junto a Daddy Yankee?';
+preguntas[4] = '¿Que cantante lanzó la canción "Despacito" junto a Daddy Yankee?';
 opciones1[4] = "Maluma";
-opciones2[4] = "Luis fonsi";
+opciones2[4] = "Luis Fonsi";
 opciones3[4] = "Enrique Iglesias";
 correctas[4] = 2;
 
@@ -40,29 +40,41 @@ opciones2[5] = "Los 8 escalones";
 opciones3[5] = "Pasapalabra";
 correctas[5] = 1;
 
-preguntas[6] = "¿quien fue el cuerno de la relacion de Icardi y Wanda Nara?";
+preguntas[6] = "¿Quién fue el cuerno de la relacion de Icardi y Wanda Nara?";
 opciones1[6] = "La Coqueta";
-opciones2[6] = "pampita";
+opciones2[6] = "Pampita";
 opciones3[6] = "La China Suarez";
 correctas[6] = 3;
 
-preguntas[7] = "¿Que famoso conductor usa la frase 'Buenas noches, america'?";
+preguntas[7] = "¿Que famoso conductor usa la frase 'Buenas noches, America'?";
 opciones1[7] = "Guido Kaczka";
 opciones2[7] = "Marcelo Tinelli";
 opciones3[7] = "Marley";
 correctas[7] = 2;
 
-preguntas[8] = "¿Donde se realizara el mundial de futbol 2026?";
+preguntas[8] = "¿Donde se realizará el mundial de fútbol 2026?";
 opciones1[8] = "Argentina";
 opciones2[8] = "Brasil";
-opciones3[8] = "Estados unidos";
+opciones3[8] = "Estados Unidos, México y Canadá";
 correctas[8] = 3;
 
-preguntas[9] = "¿Que futbolista argentino fue pareja de la cantante Tini Stoessel?";
+preguntas[9] = "¿Que futbolista Argentino fue pareja de la cantante Tini Stoessel?";
 opciones1[9] = "Rodrigo De Paul";
 opciones2[9] = "Paulo Dybala";
 opciones3[9] = "Lautaro Martinez";
 correctas[9] = 1;
+
+preguntas[9] = "¿Que futbolista Argentino fue pareja de la cantante Tini Stoessel?";
+opciones1[9] = "Rodrigo De Paul";
+opciones2[9] = "Paulo Dybala";
+opciones3[9] = "Lautaro Martinez";
+correctas[9] = 1;
+
+preguntas[10] = "¿Cuántos anos tiene Mirtha Legrand?";
+opciones1[10] = "78";
+opciones2[10] = "97";
+opciones3[10] = "1";
+correctas[10] = 3;
 
 
 let nPregunta = 0;

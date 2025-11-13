@@ -18,6 +18,20 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0);
 }
 
+.botoncito {
+    display: inline-block;
+    font-size: 1.075rem;
+    text-decoration: rgba(255, 0, 191, 0.596);
+    border: rgb(255, 0, 191);
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    font-weight: 200;
+    background-color: rgb(255, 0, 200);
+box-shadow: 0px 2px 0px rgba(255, 255, 255,0.5);
+
+
+}
 .boton {
     display: inline-block;
     font-size: 1.075rem;
@@ -26,11 +40,13 @@
     cursor: pointer;
     padding: 0.5rem 1rem;
     border-radius: 2px;
-    font-weight: bold;
+    font-weight: 200;
     background-color: rgb(255, 0, 200);
-    box-shadow: rgb(10, 10, 0);
-
-
+box-shadow: 0px 2px 0px rgba(255, 255, 255,0.5);
+}
+.boton:hover {
+box-shadow: 0px 2px 0px rgba(255, 255, 255,0.5);
+    transform: translateY(-3px);
 }
 
 .borde-verde {
@@ -87,13 +103,14 @@
 }
 
 .m-todos {
-    margin: 1rem
+    margin: 1rem;
 }
 
 .m-todosx2 {
     padding-bottom: 3.7rem;
     padding-top: 3.7rem;
-    font-weight: 900;
+    font-weight: 200;
+    margin-bottom: 3rem;
 }
 
 .m-sup {
@@ -136,11 +153,13 @@
 
 .f-incorrecto {
     background-color: rgb(255, 0, 0);
+    
 }
 
 .f-gris {
     background-color: rgb(255, 255, 255);
 }
+
 
 .oculto {
     display: none;
@@ -170,17 +189,20 @@
     text-shadow: 2px 2px 5px rgba (0, 0, 0, 0.7);
 
 }
-#icon{
+
+#icon {
     padding-top: 2rem;
     height: 2rem;
     display: flex;
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
 }
-#imagencita{
+
+#imagencita {
     height: 2rem;
-  
+
 }
+
 .titulo-portada {
     font-size: 4rem;
     font-weight: 800;
@@ -222,4 +244,5 @@ body {
     /* desactiva lo deslizadores */
     overflow-x: hidden;
     overflow-y: hidden;
+font-family: 'Roboto', sans-serif;
 }
