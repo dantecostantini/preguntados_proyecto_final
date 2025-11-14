@@ -22,7 +22,7 @@ opciones2[2] = "Lali";
 opciones3[2] = "Pampita";
 correctas[2] = 1;
 
-preguntas[3] = "¿Cuál de los siguientes opciones es un Brain rot (Contenido de muy baja calidad que te quema el cerebro";
+preguntas[3] = "¿Cuál de los siguientes opciones es un Brain rot?";
 opciones1[3] = "Ballerina Capuchina";
 opciones2[3] = "Tung Tung Sahur";
 opciones3[3] = "Todas son correctas";
@@ -105,8 +105,9 @@ function evaluar(x) {
         });
         nPregunta++;
         if (nPregunta >= preguntas.length) {
-            document.querySelector("#textoPregunta").textContent = "🎉 ¡Fin del juego!";
+            //document.querySelector("#textoPregunta").textContent = "🎉 ¡Fin del juego!";
             // Ocultar botones de opciones
+            document.querySelector("#textoPregunta").classList.add("oculto")
             document.querySelectorAll("#opciones1,#opciones2,#opciones3").forEach(b => {
                 b.classList.add("oculto");
             });
